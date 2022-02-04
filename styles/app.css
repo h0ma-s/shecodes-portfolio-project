@@ -17,7 +17,8 @@ h1 {
 }
 .hero {
   background: #f6e5e9;
-  padding: 150px 200px 150px 100px;
+  padding: 120px 200px 150px 100px;
+  border: 20px solid white;
 }
 .hero h2 {
   font-family: var(--paragraph-font-family);
