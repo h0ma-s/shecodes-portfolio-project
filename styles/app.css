@@ -67,9 +67,12 @@ small {
   padding: 20px 0;
   color: #272142b2;
 }
+.about-section {
+  padding: 120px 100px;
+}
 .about-section h1 {
   font-size: 60px;
-  line-height: 90px;
+  line-height: 85px;
 }
 .about-section h2 {
   font-size: 18px;
@@ -94,5 +97,12 @@ small {
   .about-project {
     padding: 25px;
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 90px 80px;
+  }
+  .about-section h1 {
+    font-size: 50px;
   }
 }
