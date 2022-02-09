@@ -30,10 +30,44 @@ small {
   display: block;
   text-align: center;
 }
+nav span {
+  display: flex;
+  justify-content: end;
+}
+nav {
+  padding: 20px 20px 0 20px;
+}
+nav img {
+  max-width: 100px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  margin-left: 20px;
+}
+nav li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+nav li a:hover {
+  color: #c1b2ca;
+}
+a.active {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 50%,
+    #c1b2cade 50%
+  );
+}
 .hero {
   background: #c1b2ca;
   padding: 120px 200px 120px 100px;
-  border: 20px solid white;
+  border: 10px solid white;
 }
 .hero h2 {
   font-family: var(--paragraph-font-family);
@@ -94,7 +128,7 @@ small {
 }
 .contact-container {
   background: #c1b2ca;
-  border: 20px solid white;
+  border: 10px solid white;
 }
 .contact-container a {
   text-decoration: none;
@@ -114,6 +148,13 @@ small {
   h3 {
     font-size: 39px;
   }
+  nav {
+    padding-top: 10px;
+  }
+  nav img {
+    max-height: 40px;
+  }
+
   .about-project {
     padding: 25px;
     text-align: center;
@@ -125,5 +166,23 @@ small {
   .content-container h1 {
     font-size: 35px;
     line-height: 1.3;
+  }
+}
+@media (max-width: 600px) {
+  .hero {
+    padding: 50px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 37px;
+    line-height: 1.5;
+  }
+  .hero h2 {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  .hero p {
+    font-size: 27px;
+    line-height: 51px;
   }
 }
