@@ -92,7 +92,17 @@ small {
 .content-container img {
   padding: 0 25px;
 }
-
+.contact-container {
+  background: #c1b2ca;
+  border: 20px solid white;
+}
+.contact-container a {
+  text-decoration: none;
+  color: #272142b2;
+}
+.contact-container a:hover {
+  cursor: pointer;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
