@@ -61,12 +61,23 @@ nav li a {
 nav li a:hover {
   color: #c1b2ca;
 }
-a.active {
+a.active,
+small a {
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0) 50%,
     #c1b2cade 50%
   );
+}
+small {
+  color: #272142b2;
+}
+small a {
+  text-decoration: none;
+  color: #272142b2;
+}
+small a:hover {
+  color: #272142b2;
 }
 .hero {
   background: #c1b2ca;
